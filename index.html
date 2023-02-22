@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cardápio do Restaurante</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Nome do Restaurante</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Cardápio</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Cardápio</h2>
+      <section class="prato">
+        <h3>Macarrão Italiano</h3>
+        <form>
+          <h4>Massa</h4>
+          <label><input type="radio" name="massa" value="espaguete" checked> Espaguete</label>
+          <label><input type="radio" name="massa" value="talharim"> Talharim</label>
+          <label><input type="radio" name="massa" value="penne"> Penne</label>
+          <h4>Recheio</h4>
+          <label><input type="checkbox" name="recheio" value="presunto"> Presunto</label>
+          <label><input type="checkbox" name="recheio" value="mussarela"> Mussarela</label>
+          <label><input type="checkbox" name="recheio" value="calabresa"> Calabresa</label>
+          <label><input type="checkbox" name="recheio" value="azeitona"> Azeitona</label>
+          <label><input type="checkbox" name="recheio" value="milho"> Milho</label>
+          <label><input type="checkbox" name="recheio" value="cebolinha"> Cebolinha</label>
+          <h4>Molho</h4>
+          <label><input type="radio" name="molho" value="vermelho" checked> Molho Vermelho</label>
+          <label><input type="radio" name="molho" value="branco"> Molho Branco</label>
+          <h4>Observações</h4>
+          <textarea name="observacoes"></textarea>
+          <h4>Valor</h4>
+          <p>R$ XX,XX</p>
+          <button type="submit">Adicionar ao Carrinho</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Nome do Restaurante. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
