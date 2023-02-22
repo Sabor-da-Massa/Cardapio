@@ -1,0 +1,26 @@
+/* Estilos para o cabeçalho */
+header {
+  background-color: #f8f8f8;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav li {
+  margin-right: 20px;
+}
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #666;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+  padding: 
