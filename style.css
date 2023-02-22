@@ -25,7 +25,7 @@ nav a:hover {
 main {
   padding: 
   div {
-  background-image: url(C:\Users\Della Pasta\Desktop\cardapio\logo.jpg);
+  background-image: url C:\Users\Della Pasta\Desktop\cardapio\logo.jpg;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
